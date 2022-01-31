@@ -8,7 +8,7 @@ permalink: /about/
 > Master student @KAIST
 
 ## Experience
-Manufacturing technology research 
+Manufacturing technology research (2020.03 ~ 2022.01)
 > Visual inspection equipment, Manufacturing equipment using computer vision
 - computer vision(openCV), Deep learning(pytorch)
 - Maximize performance of inspection and minimize the takt time.
@@ -24,6 +24,8 @@ Manufacturing technology research
 - version control system : git
 
 ## Education
-Bachelor's degree @SKKU
+Bachelor's degree @SKKU (2016.03 ~ 2020.02)
 > Electrical and Electronics Engineering
 
+Master degree @Kaist (2022.02 ~ )
+> Electrical and Electronics Engineering
