@@ -4,30 +4,27 @@ title: About
 permalink: /about/
 ---
 
-## Theme Monos
-> Simple and lightweight theme for Jekyll
+## YeonJu Kim
+> Master student @KAIST
 
-### Features
-- Responsive.
-- Syntax Highlight
-- Most optimized theme for tech blog.
-- Lightweight with minimum stylesheet.
-- Easy to customize.
-- Offers category menu.
+### Experience
+Manufacturing technology research 
+> Visual inspection equipment(e.g. Product defect inspector)
+> Manufacturing equipment using computer vision
+- computer vision(openCV), Deep learning(pytorch)
+- Maximize performance of inspection and minimize the takt time.
+- Design intuitive GUI (mfc, winform, pyqt)
+- Control HW including motor,  imaging device, vacuum, blow, various type of sensors, light, etc.
+- Select HW which fit to the specifications.
 
-### _config.yml
-> Code block will look like this.
-```yml
-highlighter-theme: monokai //you can change your syntax color scheme.
-date_format: "%Y-%M-%D" //and date format.
-```
+### Skills
+- computer vision : opencv
+- deep learning : pytorch
+- window app : mfc, winform, pyqt
+- IDEs : visual studio, pycharm
+- version control system : git
 
-### Screenshots
-#### Page
-![alt text](/public/img/screenshot-1.png)
-#### Articles
-![alt text](/public/img/screenshot-2.png)
-#### Page - Mobile
-![alt text](/public/img/screenshot-m1.png)
-#### Page - Articles
-![alt text](/public/img/screenshot-m2.png)
+### Education
+Bachelor's degree @SKKU
+> Electrical and Electronics Engineering
+
