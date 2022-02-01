@@ -5,7 +5,7 @@ permalink: /about/
 ---
 
 # YeonJu Kim
-> Master student @KAIST
+> Master's student @KAIST
 
 
 ## Experience
