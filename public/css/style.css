@@ -51,7 +51,8 @@ body {
 	height: 100%;
 	margin: 0;
 	padding: 0;
-	font-family: 'Gelasio', 'Nanum Myeongjo', serif;
+	/* font-family: 'Gelasio', 'Nanum Myeongjo', serif; */
+	font-family: "Nanum Gothic";
 	color: #2c3e50;
 }
 
@@ -115,7 +116,8 @@ code {
 
 .sidebar-brand > a {
 	font-size: 300%;
-	font-family: 'Gelasio';
+	/* font-family: 'Gelasio'; */
+	font-family: "Nanum Gothic";
 	color: #fff;
 }
 
@@ -134,7 +136,8 @@ code {
 
 .nav-title {
 	font-size: 100%;
-	font-family: "Noto Sans";
+	/* font-family: "Noto Sans"; */
+	font-family: "Nanum Gothic";
 	text-transform: uppercase;
 	border-bottom: 1px solid gray;
 	margin-bottom: 5px;
@@ -142,7 +145,8 @@ code {
 
 a.nav-item {
 	font-size: 120%;
-	font-family: "Noto Sans";
+	/* font-family: "Noto Sans"; */
+	font-family: "Nanum Gothic";
 	text-transform: capitalize;
 	color: #aaa;
 }
@@ -234,7 +238,7 @@ article h3,
 article h4,
 article h5,
 article h6 {
-	font-family: "Roboto", "Nanum Gothic";
+	font-family: "Nanum Gothic";
 	color: #333;
   	margin-bottom: 0;
 }
@@ -285,14 +289,14 @@ header.home {
 
 footer {
 	padding-top: 15px;
-	font-family: 'Ubuntu';
+	font-family: 'Nanum Gothic';
 }
 
 .sidebar-footer {
 	margin-top: 80px;
 	font-size: 0.75em;
 	font-weight: lighter;
-	font-family: "Roboto";
+	font-family: "Nanum Gothic";
 	line-height: 1.5;
 }
 
