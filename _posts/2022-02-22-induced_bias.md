@@ -2,13 +2,15 @@
 layout: post
 title: Inductive Bias
 date: 2022-02-21 00:00:00 +0900
-category: ml 용어
+category: ml terminology
 ---
 ## Inductive bias
+
 논문에서 Vision transformer은 CNN보다 less inductive bias가 적다고 나옴. inductive bias의 정의는 아래와 같다.
 > 학습 모델이 지금까지 만나보지 못했던 상황에서 정확한 예측을 하기 위해 사용하는 추가적인 가정을 의미
 
 ---
+
 ## Inductive bias를 사용하는 이유 : brittle / spurious
 
 > model이 brittle하다. <br>
@@ -20,6 +22,7 @@ category: ml 용어
 위와 같이 model이 brittle 하거나 spurious 하게 되는 것을 막기 위해 Inductive bias 를 사용
 
 ---
+
 ## Inductive bias의 예시
 
 - Translation invariance : 사물의 위치가 바뀌어도 인식
@@ -32,6 +35,7 @@ category: ml 용어
 - Nearest neighbors: 특징 공간에 있는 작은 이웃의 경우 대부분이 동일한 클래스에 속한다고 가정합니다.
 
 ---
+
 ## 딥러닝에서 Inductive bias
 
 딥러닝에서 레이어는 Relational Inductive bias와 hierarchical process를 제공한다.<br>
@@ -58,6 +62,8 @@ Inductive bias가 강하면 sample efficiency가 좋아진다. (few shot learnin
 ![alt text](/public/img/220222/bias_variance.png)
 
 ## 출처
+
 본 포스팅은 아래 사이트들을 참고하여 작성되었습니다.
-- https://velog.io/@euisuk-chung/Inductive-Bias%EB%9E%80
-- https://en.wikipedia.org/wiki/Inductive_bias
+
+- <https://velog.io/@euisuk-chung/Inductive-Bias%EB%9E%80>
+- <https://en.wikipedia.org/wiki/Inductive_bias>
