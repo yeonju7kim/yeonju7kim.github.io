@@ -34,7 +34,6 @@ RNN은 sequence의 길이가 길 때 취약하다는 문제가 있었다. 이 �
 > - stacked self-attention
 > - point-wise, fc layer 사용
 
-
 #### Encoder
 >
 > - 6 layers
@@ -43,7 +42,6 @@ RNN은 sequence의 길이가 길 때 취약하다는 문제가 있었다. 이 �
 >   - simple, position-wise fully connected feed-forward network
 >   - 각 sub layer 뒤에 residual connection, layer normalization
 >   - 모든 sub layer의 output과 embedding layer의 output은 d_model(512)으로 맞춤
-
 
 #### Decoder
 >
@@ -55,9 +53,29 @@ RNN은 sequence의 길이가 길 때 취약하다는 문제가 있었다. 이 �
 >   - 모든 sub layer의 output과 embedding layer의 output은 d_model(512)으로 맞춤
 >   - masking : This masking, combined with fact that the output embeddings are offset by one position, ensures that the predictions for position i can depend only on the known outputs at positions less than i (이해 못함)
 
+#### Scaled Dot-Product Attention
+>
+> 흔히 사용되는 attension function은 2 종류 (additive attention, dot-product attention)<br>
+> 논문에서는 additive attention에서 scaling factor를 추가해서 사용<br>
+> $$scaling factor=\frac{1}{\sqrt{d_k}}$$
+>
+> dot-product attetion : faster, more space-efficient<br>
+> additive attention : d_k가 크면 성능 좋음
+>
+> $$ Attension(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V $$
+>
 
-#### Attention
-  
+#### Multi-Head Attention
+
+> ![alt text](/public/img/220222/multihead_attention.PNG)
+> 결국 MultiHead Attention Energy는 d_model x d_model 이 나오고, i번째 attention은 d_model x h가 나온다. 그리고
+
+#### Multi-Head Attention을 쓰는 3가지 방법
+>
+> 1. encoder-decoder attention : decoder에서 query를 얻고, encoder에서 key와 value를 얻는다. 하나의 query를 각 key와 value에 적용한다.
+> 2. encoder contains self-attention layers : 
+> 3. self-attention layers in the decoder : 
+
 ---
 
 ##
