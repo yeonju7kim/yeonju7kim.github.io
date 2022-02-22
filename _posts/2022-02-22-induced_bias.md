@@ -2,7 +2,7 @@
 layout: post
 title: Inductive Bias
 date: 2022-02-21 00:00:00 +0900
-category: ml/dl 용어
+category: ml 용어
 ---
 ## Inductive bias
 논문에서 Vision transformer은 CNN보다 less inductive bias가 적다고 나옴. inductive bias의 정의는 아래와 같다.
