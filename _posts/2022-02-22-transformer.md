@@ -3,6 +3,8 @@ layout: post
 title: Transformer
 date: 2022-02-22 00:00:00 +0900
 category: dl_paper
+use_math: true
+comments: true
 ---
 본 포스팅은 아래 논문을 참고했습니다.
 <https://arxiv.org/pdf/1706.03762.pdf>

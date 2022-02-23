@@ -3,6 +3,8 @@ layout: post
 title: transformer로 번역기
 date: 2022-02-22 00:00:00 +0900
 category: dl_project
+use_math: true
+comments: true
 ---
 
 # Transformer
@@ -18,4 +20,6 @@ https://github.com/yeonju7kim/pytorchPractice/tree/main/transformer
 ---
 
 ## 결과
+
+###
 
