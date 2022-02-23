@@ -10,16 +10,10 @@ category: dl_project
 아래 사이트의 코드를 참고하여 구현 연습을 하였다. <br>
 https://tutorials.pytorch.kr/beginner/translation_transformer.html
 
-## Transformer 설명
-
-
-
----
 ## Transformer 구현
 
 자세한 내용은 아래 링크에서 확인해주세요.
-https://github.com/yeonju7kim/pytorchPractice/tree/main/dcgan
-
+https://github.com/yeonju7kim/pytorchPractice/tree/main/transformer
 
 ---
 
