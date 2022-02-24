@@ -61,10 +61,10 @@ RNN, LSTM, gated RNN 등 Recurrent model 등은 position을 정렬해서 학습�
 
 > 흔히 사용되는 attension function은 2 종류 (additive attention, dot-product attention)<br>
 > 논문에서는 additive attention에서 scaling factor를 추가해서 사용<br>
-> $$scaling factor=\frac{1}{\sqrt{d_k}}$$
+> $scaling factor=\frac{1}{\sqrt{d_k}}$
 > dot-product attetion : faster, more space-efficient<br>
-> additive attention : d_k가 크면 성능 좋음
-> $$ Attension(Q, K, V) = softmax(\frac{QK^T}{\sqrt{d_k}})V $$
+> additive attention : d_k가 크면 성능 좋음 <br>
+> $Attension(Q, K, V)=softmax(\frac{QK^T}{\sqrt{d_k}})V$
 
 #### 3.2.2 Multi-Head Attention
 
