@@ -2,7 +2,7 @@
 layout: post
 title: Inductive Bias
 date: 2022-02-22 00:00:00 +0900
-category: dl_terminology
+category: terminology
 use_math: true
 comments: true
 ---

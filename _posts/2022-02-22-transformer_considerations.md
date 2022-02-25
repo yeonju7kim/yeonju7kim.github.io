@@ -2,7 +2,7 @@
 layout: post
 title: Transformer 고찰
 date: 2022-02-25 00:00:00 +0900
-category: dl_thoughts
+category: transformer
 use_math: true
 comments: true
 ---

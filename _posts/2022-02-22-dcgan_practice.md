@@ -2,7 +2,7 @@
 layout: post
 title: DCGAN 연습
 date: 2022-02-23 00:00:01 +0900
-category: dl_project
+category: gan
 use_math: true
 comments: true
 ---

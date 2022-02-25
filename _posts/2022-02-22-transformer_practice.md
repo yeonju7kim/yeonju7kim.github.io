@@ -2,7 +2,7 @@
 layout: post
 title: transformer 연습
 date: 2022-02-22 00:00:00 +0900
-category: dl_project
+category: transformer
 use_math: true
 comments: true
 ---
