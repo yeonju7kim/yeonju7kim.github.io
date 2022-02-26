@@ -2,7 +2,8 @@
 layout: post
 title: Transformer
 date: 2022-02-22 00:00:00 +0900
-category: transformer
+# category: transformer
+category: ongoing
 use_math: true
 comments: true
 ---

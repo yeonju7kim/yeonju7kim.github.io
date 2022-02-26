@@ -2,7 +2,8 @@
 layout: post
 title: vision transformer
 date: 2022-02-25 00:10:00 +0900
-category: transformer
+# category: transformer
+category: ongoing
 use_math: true
 comments: true
 ---
