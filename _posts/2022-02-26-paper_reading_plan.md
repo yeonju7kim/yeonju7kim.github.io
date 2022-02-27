@@ -15,3 +15,4 @@ comments: true
 |Transformer-TTS|https://arxiv.org/abs/1809.08895|
 |Gpt|https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf|
 |Bert|https://arxiv.org/abs/1810.04805|
+|Paralip|https://arxiv.org/abs/2107.06831|
