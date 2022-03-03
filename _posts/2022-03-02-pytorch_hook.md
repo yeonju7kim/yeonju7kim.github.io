@@ -1,6 +1,6 @@
 ---
 layout: post
-title: [pytorch] hook
+title: pytorch hook
 date: 2022-03-02 00:10:00 +0900
 category: ongoing
 use_math: true
