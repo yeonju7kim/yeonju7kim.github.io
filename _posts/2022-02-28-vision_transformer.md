@@ -59,14 +59,15 @@ vision에서도 transformer를 사용하려는 노력이 많았다. 하지만 �
     <summary>
         translation invariance
     </summary>
-
-  - input의 위치와 상관없이 output이 동일한 값을 갖는것을 말한다. <br>
-  - CNN은 translation equivariance한 네트워크이다. 하지만 max pooling의 약간의 translation invariance와 softmax의 translation invariance로 인해 translation invariance한 성질도 갖게 된다.<br>
-  - Max-pooling : 대표적인 small translation invariance, k x k 범위 내에서의 translation에 대해서는 invariance 하다.<br>
-  - conv layer : object의 위치와 상관없이 특정 패턴을 학습
-  - softmax <br> 
-  아래 게시물을 참고했습니다.<br>
-  https://ganghee-lee.tistory.com/43
+    <div markdown="1">
+    - input의 위치와 상관없이 output이 동일한 값을 갖는것을 말한다. <br>
+    - CNN은 translation equivariance한 네트워크이다. 하지만 max pooling의 약간의 translation invariance와 softmax의 translation invariance로 인해 translation invariance한 성질도 갖게 된다.<br>
+    - Max-pooling : 대표적인 small translation invariance, k x k 범위 내에서의 translation에 대해서는 invariance 하다.<br>
+    - conv layer : object의 위치와 상관없이 특정 패턴을 학습
+    - softmax <br> 
+    아래 게시물을 참고했습니다.<br>
+    https://ganghee-lee.tistory.com/43
+    </div>
   </details>
 
 - Hybrid Architecture : raw image patches 대신 CNN의 feature map이 input으로 들어가기도 함. 이때 1x1 patch가 될 수도 있다.
