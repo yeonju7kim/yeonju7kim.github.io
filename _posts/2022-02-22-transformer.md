@@ -2,8 +2,7 @@
 layout: post
 title: Transformer
 date: 2022-02-22 00:00:00 +0900
-# category: transformer
-category: ongoing
+category: deeplearning
 use_math: true
 comments: true
 ---
@@ -70,7 +69,6 @@ RNN, LSTM, gated RNN 등 Recurrent model 등은 position을 정렬해서 학습�
 #### 3.2.2 Multi-Head Attention
 
 ![alt text](/public/img/220222/multihead_attention.PNG)
-결국 MultiHead Attention Energy는 d_model x d_model 이 나오고,
 
 #### 3.2.3 Multi-Head Attention을 쓰는 3가지 방법
 
