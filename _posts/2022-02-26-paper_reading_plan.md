@@ -2,7 +2,7 @@
 layout: post
 title: 읽어볼 논문 리스트
 date: 2022-02-26 00:10:00 +0900
-category: plan
+category: etc
 use_math: true
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: Transformer-TTS
 date: 2022-03-03 00:10:00 +0900
-category: Audio
+category: deep-learning
 use_math: true
 comments: true
 ---

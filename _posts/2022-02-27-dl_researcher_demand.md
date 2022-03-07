@@ -3,7 +3,7 @@ layout: post
 title: 딥러닝 관련 채용공고 정리
 date: 2022-02-27 00:10:00 +0900
 # category: book_summary
-category: future
+category: etc
 use_math: true
 comments: true
 ---

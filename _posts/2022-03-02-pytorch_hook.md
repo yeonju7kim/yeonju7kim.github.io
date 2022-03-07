@@ -2,7 +2,7 @@
 layout: post
 title: pytorch hook
 date: 2022-03-02 00:10:00 +0900
-category: pytorch
+category: python
 use_math: true
 comments: true
 ---

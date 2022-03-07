@@ -2,7 +2,7 @@
 layout: post
 title: 대학원 생때 알았으면 좋았을 것들
 date: 2022-02-27 00:10:00 +0900
-category: book
+category: etc
 use_math: true
 comments: true
 ---
