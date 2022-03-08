@@ -119,14 +119,14 @@ self-attention의 장점은 3가지가 있다.
 - Label smoothing : $\epsilon_{ls}$ 는 0.1, 이것은 perplexity에 손실을 주지만, BLEU를 향상시킵니다.
 
 <details>
-    <summary>
-        PPL, BLEU, Label smoothing
-    </summary>
-    <div markdown="1">
+  <summary>
+      PPL, BLEU, Label smoothing
+  </summary>
+  <div markdown="1">
     - PPL : 문장의 길이로 정규화한 문장 확률의 역수. 낮을수록 언어 모델의 성능이 좋다는 것을 의미한다는 점입니다. <br>
     - BLEU : 기계 번역 결과와 사람이 직접 번역한 결과가 얼마나 유사한지 비교하여 번역에 대한 성능을 측정하는 방법 <br>
     - Label smoothing : 라벨을 깎아서 모델을 Regularize하는 것.
-    </div>
+  </div>
 </details>
 
 ---
