@@ -2,7 +2,7 @@
 layout: post
 title: Shadow attach
 date: 2022-03-08 00:10:00 +0900
-category: deep-learning
+category: ongoing
 use_math: true
 comments: true
 ---
@@ -14,7 +14,7 @@ comments: true
 
 ---
 
-유튜브에 있는 논문 리뷰를 보는데, 익숙하지 않은 개념인 adversarial attach에 대한 동영상을 보게돼서 정리해봤습니다. 하지만 워낙 관심이 없는 분야이다보니 실험내용은 일단 스킵했습니다.
+유튜브에 있는 논문 리뷰를 보는데, 익숙하지 않은 개념인 adversarial attach에 대한 동영상을 보게돼서 정리해봤습니다.
 
 ## 1. Introduction
 
