@@ -7,6 +7,8 @@ permalink: /about/
 # YeonJu Kim
 
 > Master's student @KAIST
+> - study deep-learning
+> - [ivylab](https://ivylab.kaist.ac.kr/)
 
 ## Experience
 
