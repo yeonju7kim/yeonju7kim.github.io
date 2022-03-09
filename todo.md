@@ -1,10 +1,7 @@
 ---
 layout: page
+title: ToDo
 permalink: /todo/
----
-
-# TODO List
-
 ---
 
 ### 2022-03-09
