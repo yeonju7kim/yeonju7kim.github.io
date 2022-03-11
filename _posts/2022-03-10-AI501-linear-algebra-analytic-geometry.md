@@ -67,13 +67,13 @@ comments: true
 
 ## Metric (distance)
 
-- $d(x,y)=||x-y||=\sqrt{<x-y,x-y>}=\sqrt{(x-y)^TA(x-y)}=\sqrt{(x-y)^TLL^T(x-y)}$
+- $d(x,y)=\lVert x-y\rVert=\sqrt{<x-y,x-y>}=\sqrt{(x-y)^TA(x-y)}=\sqrt{(x-y)^TLL^T(x-y)}$
 - metric learning : 위 식에서 positive definite matrix A 또는 L을 를 학습하는 것
 
 ## Orthogonality
 
 - $Q^TQ=QQ^T=I$
-- $\frac{<Qx,Qy>}{{\lVert Qx\rVert\lVert Qy\rVert}}=\frac{<x,y>}{{\lVert x\rVert\lVert y\rVert}}$ orthogonal matrix는 vector의 angle을 유지한다.
+- $\frac{<Qx,Qy>}{\lVert Qx\rVert\lVert Qy\rVert}=\frac{<x,y>}{\lVert x\rVert\lVert y\rVert}$ orthogonal matrix는 vector의 angle을 유지한다.
 
 ## Projection
 

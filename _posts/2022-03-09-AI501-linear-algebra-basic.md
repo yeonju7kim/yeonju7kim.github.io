@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (AI501) 1. linear algebra - basic
-date: 2022-03-10 00:10:00 +0900
+date: 2022-03-09 00:10:00 +0900
 category: class-summary
 use_math: true
 comments: true
@@ -14,6 +14,7 @@ comments: true
 ## 행렬 곱셈
 
 아래 그림과 같이 행렬의 곱셈을 할 때
+
 - 행 벡터 x 열 벡터 하면 outer product 처럼 됨.
 - 열 벡터 x 행 벡터 하면 inner product의 sum 처럼 됨.
 
@@ -35,7 +36,8 @@ comments: true
 
 ## row space, column space
 
-Ax = 0일 때,<br>
+Ax = 0일 때,
+
 - row space는 null space와 orthogonal
 - col space는 left null space와 orthogonal
 - col space는 range matrix라고도 불린다.
