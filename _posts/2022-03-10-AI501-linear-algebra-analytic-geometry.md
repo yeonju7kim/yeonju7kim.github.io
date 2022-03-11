@@ -44,17 +44,17 @@ comments: true
 
 ![alt text](/public/img/220310/induced_norm.png)
 
-- $||A||_1$ 은 maximum col sum of A
-- $||A||_\infty$ 은 maximum row sum of A
-- $||A||_2$ 은 largest singular value of A
+- $\lVert A\rVert_1$ 은 maximum col sum of A
+- $\lVert A\rVert_\infty$ 은 maximum row sum of A
+- $\lVert A\rVert_2$ 은 largest singular value of A
 - Schatten norm? : matrix p-norm을 singular value로 계산하는 것?
-  - $||A||_1$ 은 nuclear norm
-  - $||A||_\infty$ 은 spectral norm
-  - $||A||_2$ 은 frobenius norm
+  - $\lVert A\rVert _1$ 은 nuclear norm
+  - $\lVert A\rVert _\infty$ 은 spectral norm
+  - $\lVert A\rVert _2$ 은 frobenius norm
 
 ## inner product
 
-- $||x||=\sqrt{<x,x>}$
+- $\lVert x\rVert=\sqrt{<x,x>}$
 - dot product는 inner product의 일종이다.
 - 코시-슈파르츠
   - $<x,x>^2 \leq <x,x><y,y>$
@@ -73,7 +73,7 @@ comments: true
 ## Orthogonality
 
 - $Q^TQ=QQ^T=I$
-- $\frac{<Qx,Qy>}{{||Qx||||Qy||}}=\frac{<x,y>}{{||x||||y||}}$ orthogonal matrix는 vector의 angle을 유지한다.
+- $\frac{<Qx,Qy>}{{\lVert Qx\rVert\lVert Qy\rVert}}=\frac{<x,y>}{{\lVert x\rVert\lVert y\rVert}}$ orthogonal matrix는 vector의 angle을 유지한다.
 
 ## Projection
 
