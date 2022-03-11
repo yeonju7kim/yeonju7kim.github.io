@@ -16,6 +16,7 @@ comments: true
 |Gpt|<https://s3-us-west-2.amazonaws.com/openai-assets/research-covers/language-unsupervised/language_understanding_paper.pdf>|
 |Bert|<https://arxiv.org/abs/1810.04805>|
 |Paralip|<https://arxiv.org/abs/2107.06831>|
+|transformer summary|<https://arxiv.org/pdf/2106.04554.pdf>|
 
 심층학습 수업 논문 리스트
 
