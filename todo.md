@@ -30,3 +30,5 @@ permalink: /todo/
 - 클론코딩
   - [pytorch 튜토리얼](https://tutorials.pytorch.kr/)
   - [gan](https://github.com/eriklindernoren/PyTorch-GAN)
+
+- [ ] [AWS dl container 사용](https://docs.aws.amazon.com/deep-learning-containers)
