@@ -28,5 +28,65 @@ comments: true
 
 ## matrix norm
 
-![alt text](/public/img/220310/vector_norm2.png)
+- Matrix의 complexity를 측정할 때, Regularizae를 통해 robust model을 만들 때 사용
 
+![alt text](/public/img/220310/matrix_norm.png)
+
+- Frobenious norm
+  - matrix의 l2 norm을 의미하고, optimization 문제에서 사용됨
+  - 특히 중요함, A의 singular value들의 제곱의 합을 의미
+
+![alt text](/public/img/220310/frobenious_norm.png)
+
+## induced norm
+
+- 벡터의 놈에서 유도된 행렬의 놈
+
+![alt text](/public/img/220310/induced_norm.png)
+
+- $||A||_1$ 은 maximum col sum of A
+- $||A||_\infty$ 은 maximum row sum of A
+- $||A||_2$ 은 largest singular value of A
+- Schatten norm? : matrix p-norm을 singular value로 계산하는 것?
+  - $||A||_1$ 은 nuclear norm
+  - $||A||_\infty$ 은 spectral norm
+  - $||A||_2$ 은 frobenius norm
+
+## inner product
+
+- $||x||=\sqrt{<x,x>}$
+- dot product는 inner product의 일종이다.
+- 코시-슈파르츠
+  - $<x,x>^2 \leq <x,x><y,y>$
+
+## positive definite matrix
+
+- positive definite matrix : $x^TAx\gt0$
+- positive semi-definite matrix : $x^TAx\geq0$
+- positive definite하면 $<x,y>=x^TAy$ 이고, $A=LL^T$로 cholesky decomposition할 수 있다. 여기서 L은 lower-triangular matrix + positive diagonal entries 이다.
+
+## Metric (distance)
+
+- $d(x,y)=||x-y||=\sqrt{<x-y,x-y>}=\sqrt{(x-y)^TA(x-y)}=\sqrt{(x-y)^TLL^T(x-y)}$
+- metric learning : 위 식에서 positive definite matrix A 또는 L을 를 학습하는 것
+
+## Orthogonality
+
+- $Q^TQ=QQ^T=I$
+- $\frac{<Qx,Qy>}{{||Qx||||Qy||}}=\frac{<x,y>}{{||x||||y||}}$ orthogonal matrix는 vector의 angle을 유지한다.
+
+## Projection
+
+- Projection matrix P 는 idempotent($P^2=P$)이다.
+- Orthogonal projection matrix : $P^2=P=P^T$
+- line에 projection
+  - ![alt text](/public/img/220310/line_projection.png)
+  - ![alt text](/public/img/220310/line_projection_equation.png)
+- space에 projection
+  - ![alt text](/public/img/220310/space_projection.png)
+  - ![alt text](/public/img/220310/space_projection_equation.png)
+  - ![alt text](/public/img/220310/space_projection_equation2.png)
+- pseudo-inverse
+  - $(B^TB)^{-1}B^T$를 말한다. 
+  - non-square matrix의 inverse의 일반화
+  - B는 full column rank이다.
