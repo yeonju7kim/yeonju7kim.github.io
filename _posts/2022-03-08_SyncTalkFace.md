@@ -42,12 +42,20 @@ comments: true
   - memory로 얻은 lip feature, audio feature은 decoder로 들어가서 talking face video를 합성한다.
   - decoder가 memory로 얻은 명확한 visual hint를 사용하게 된다.
   > 1. audio와 lip-movement intermediate representation을 연결하는 Audio-Lip Memory 사용
-  > 2. audio-visual sync와 함께 visual-visual sync도 활용하여 성능을 높였다.
-  > 3. 
+  > 2. 높은 audio-visual sync를 보장한다.
+  > 3. representation이 memory 안에서 phoneme level로 저장되는 것을 확인했다.
+  > 4. LRW, LRS2 dataset에서 sota 성능
 
 ---
 
 ## 2. Related work
+
+### Talking face generation
+
+1. reconstruction based method
+   1. encoder-decoder 구조로 
+   2. fghgfhg
+2. intermediate representation based method
 
 ---
 
