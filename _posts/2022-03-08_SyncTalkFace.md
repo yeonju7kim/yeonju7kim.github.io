@@ -41,6 +41,7 @@ comments: true
   - memory에 audio와 lip feature를 연결하여 저장하고, audio를 query로 사용함.
   - memory로 얻은 lip feature, audio feature은 decoder로 들어가서 talking face video를 합성한다.
   - decoder가 memory로 얻은 명확한 visual hint를 사용하게 된다.
+
   > 1. audio와 lip-movement intermediate representation을 연결하는 Audio-Lip Memory 사용
   > 2. 높은 audio-visual sync를 보장한다.
   > 3. representation이 memory 안에서 phoneme level로 저장되는 것을 확인했다.
@@ -53,8 +54,11 @@ comments: true
 ### Talking face generation
 
 1. reconstruction based method
-   1. encoder-decoder 구조로 
-   2. fghgfhg
+   1. encoder-decoder 구조를 따른다. 여기서 identity feature와 speech feature이 추출되고, 둘이 결합돼서 decoder의 input으로 들어간다. 그리고 talking face video를 합성한다.
+   2. pretrained된 lip-sync discriminator를 사용한 방법 : 정확한 lip-sync discriminator의 중요성을 강조했다. 여기서 lip-sync discriminator는 lip-sync 성능을 network에 피드백한다.
+   3. visual input을 identity space, pose space, speech content space로 나누는 방법 : 많은 비슷한 이전 작업들이 이렇게 visual representation을 향상시켰지만 audio representation을 향상시키지는 못했다.
+   4. Audio를 향상시킨 방법 : Audio를 phonetic content, emotional tone 등으로 나눠서 Variational Autoencoder를 사용하고, negative log likelihood와 margin ranking loss를 사용하였다.
+   5. 
 2. intermediate representation based method
 
 ---
