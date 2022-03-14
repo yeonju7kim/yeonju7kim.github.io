@@ -2,7 +2,8 @@
 layout: post
 title: SyncTalkFace
 date: 2022-03-08 00:10:00 +0900
-category: deep-learning
+category: ongoing
+# category: lab-paper
 use_math: true
 comments: true
 ---
@@ -57,9 +58,13 @@ comments: true
    1. encoder-decoder 구조를 따른다. 여기서 identity feature와 speech feature이 추출되고, 둘이 결합돼서 decoder의 input으로 들어간다. 그리고 talking face video를 합성한다.
    2. pretrained된 lip-sync discriminator를 사용한 방법 : 정확한 lip-sync discriminator의 중요성을 강조했다. 여기서 lip-sync discriminator는 lip-sync 성능을 network에 피드백한다.
    3. visual input을 identity space, pose space, speech content space로 나누는 방법 : 많은 비슷한 이전 작업들이 이렇게 visual representation을 향상시켰지만 audio representation을 향상시키지는 못했다.
-   4. Audio를 향상시킨 방법 : Audio를 phonetic content, emotional tone 등으로 나눠서 Variational Autoencoder를 사용하고, negative log likelihood와 margin ranking loss를 사용하였다.
-   5. 
-2. intermediate representation based method
+   4. Audio를 향상시킨 방법 : Audio를 phonetic content, emotional tone 등으로 나눠서 negative log likelihood와 KL divergence로 Variational Autoencoder를 사용하고, margin ranking loss를 사용하였다.
+   5. 이 연구에서는 speech를 분해하기보다는 input audio와 연관된 lip motion을 추출했다.
+   6. generation 단계에서 lip synchronization을 맞춘다.
+2. intermediate representation based method : landmark나 3D 모델과 같은 intermediate representation을 사용하는 방법
+
+### Audio-Visual Alignment
+
 
 ---
 
