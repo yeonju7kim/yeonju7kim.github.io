@@ -65,10 +65,31 @@ comments: true
 
 ### Audio-Visual Alignment
 
+- audio와 video의 상관관계를 찾아서 맞춤.
+- pretrained embedding module을 liy-sync discriminator로 사용했고, asymmetric Mutual Information Estimator를 제시했다.
+- inter-class pair 뿐만이 아니라 intra-class pair에 대해서도 multi-way matching loss를 사용하는 방법
+- 이 논문에서는 intra-class pair loss에서 영감을 받아서 visual-visual sync loss를 이용했다.
+- input audio와 ground truth video가 sync가 맞춰지면 audio-visual sync가 맞춰질 것이다.
+
+### Memory Network
+
+- 기존에는 memory에 중요한 정보만 저장했다.
+- 이 논문에서는 key-value memory로 2 modality features를 저장한다.
+- memory의 value로 얻은 lip feature은 intermediate representation으로 사용되어 audio와 video를 연결한다.
+
+![alt image](/public/img/220315/synctalkface.png)
 
 ---
 
 ## 3. Methods
+
+- memory에 encoded audio feature과 encoded lip feature을 저장했다. audio feature로 query 했을 때 lip feature을 얻을 수 있다.
+- 얻어진 lip feature은 audio feature과 합쳐져서 decoder network로 들어가서 video 합성을 한다.
+- sync가 잘 맞는 이유는 audio-visual synchronization loss와 visual-visual synchronization loss를 사용해서이다.
+
+### 3.1 Audio-Lip Memory
+
+
 
 ---
 
