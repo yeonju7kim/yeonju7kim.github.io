@@ -89,7 +89,24 @@ comments: true
 
 ### 3.1 Audio-Lip Memory
 
+- audio key, lip value
+- audio encoder로 audio -> spectrogram
+- lip encoder로 해당하는 5개의 frame을 입쪽만 보이게 위의 반쪽만 masked하여 GT로 넣음
+- memory는 recalled lip feature frome the key address(?)와 lip encoder로 부터 나온 lip features사이의 reconstruction loss로 representative lip feature를 학습한다.
+- 동시에 key-value address alignment loss로 lip feature와 audio feature의 align을 학습해서 audio feature로 lip feature를 얻을 수 있도록 학습한다.
+  
+#### Storing lip features in lip-value memory
 
+- $M_{aud}\in R^{S\times C}$
+- $M_{lip}\in R^{S\times C}$
+- S : slot 개수, C : channel 수
+- 5장의 입쪽만 보이는 이미지와 sound로 합성된 이미지간의 cosine similarity를 계산하여 lip-feature를 학습한다.
+  - ![alt image](/public/img/220315/cosine_similarity_synctalkface.png)
+- cosine similarity를 계산한 후 softmax를 한다.
+  - ![alt image](/public/img/220315/softmax_synctalkface.png)
+  - scaling term : $\kappa$
+  - lip feature에 대한 i번째 slot의 attention weight : $\alpha$
+- 
 
 ---
 
