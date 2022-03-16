@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (AI501) 1. linear algebra - basic
+title: (AI501) 2. linear algebra - basic
 date: 2022-03-09 00:10:00 +0900
 category: class-summary
 use_math: true

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (AI501) 2.linear algebra - analytic geometry
+title: (AI501) 3.linear algebra - analytic geometry
 date: 2022-03-10 00:10:00 +0900
 category: class-summary
 use_math: true
