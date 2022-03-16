@@ -11,7 +11,7 @@ comments: true
 
 ---
 
-## Derivates of $f:R^n \rarr R$ (real-valued function)
+## Derivates of $f:R^n → R$ (real-valued function)
 
 - Partial derivate
 
@@ -27,7 +27,7 @@ comments: true
 >
 > 모든 coordinate에 대하여 partial derivate을 모아둔 것
 
-## Derivates of $f:R^n \rarr R^m$ (vector-vector function)
+## Derivates of $f:R^n → R^m$ (vector-vector function)
 
 ### Jacobian
 
@@ -49,33 +49,33 @@ Jacobian matrix는 $m\times n$이다.
 
 D(f)는 x 주위에서 linear function을 잘 근사한다.
 
-- $f:R^n \rarr R^m$가 x에서 differentiable하다는 것은 모든 $\frac{\delta f_i}{\delta x_j}$가 존재하고, x에서 연속일 때이다. 이때 total derivates는 jacobian matrix와 같다.
+- $f:R^n → R^m$가 x에서 differentiable하다는 것은 모든 $\frac{\delta f_i}{\delta x_j}$가 존재하고, x에서 연속일 때이다. 이때 total derivates는 jacobian matrix와 같다.
 - Euclidean space에서 f가 x에서 differentiable 하면, $\nabla f(x)^T=Df(x)$이다. 하지만 일반적으로 다르고, total derivate는 존재하는데, gradient는 존재하지 않는 경우도 있다.
 
 ### Directional derivative
 
-$f:R^n \rarr R$ 일 때
+$f:R^n → R$ 일 때
 
 ![alt image](/public/img/220316/directional_derivative.png)
 
 v 방향으로 directional derivate한 것이다.
 
-또한 $f:R^n \rarr R$ 이 differentiable하다는 것은 아래를 만족한다.
+또한 $f:R^n → R$ 이 differentiable하다는 것은 아래를 만족한다.
 
 - ![alt image](/public/img/220316/directional_derivative_if_differentiable.png)
 - $\nabla f(x)$는 가장 steepest 한 방향이다.
 
-## real-valued function $f:R^n \rarr R$의 기본 규칙
+## real-valued function $f:R^n → R$의 기본 규칙
 
 ![alt image](/public/img/220316/real-valued-function-basic-rule.png)
 
-## Matrix-vector function $f:R^n \rarr R^m$의 기본 규칙
+## Matrix-vector function $f:R^n → R^m$의 기본 규칙
 
 ![alt image](/public/img/220316/derivative_dimension.png)
 
 예시로 f=Ax가 있을 때 $A \in R^{m\times n}, x\in R^n$이면 
 
-f(A)는 $R^{m\times n} \rarr R^m$ 이므로
+f(A)는 $R^{m\times n} → R^m$ 이므로
 
 Df(A)는 $R^{m\times m\times n}$ 이다.
 
