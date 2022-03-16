@@ -89,7 +89,9 @@ comments: true
 
 ### 3.1 Audio-Lip Memory
 
-
+- GT image에서 5개의 frame으로 lip feature를 얻어서 memory에 저장된 lip value로 각 slot 별로 cosine 유사도를 계산한다.
+- softmax로 slot별로 가중치를 계산
+- 
 
 ---
 
