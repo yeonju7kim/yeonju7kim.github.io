@@ -111,7 +111,7 @@ comments: true
 - 아래와 같이 retrieved 된 lip feature와 GT 이미지로 부터 얻은 lip feature로 reconstruction loss를 계산하고, 이것으로 모델이 lip feature을 임베딩 할 수 있게 학습한다.
   - ![alt image](/public/img/220316/memory_loss.png)
   
-#### key address와 value addresss align 맞추기
+#### aligning key address with value addresss
 
 - audio가 쿼리로 들어갔을 때, lip-feature를 얻을 수 있게 하는 과정
 - memory 안의 audio feature $M_{aud}$와 input으로 들어간 audio feature$f_{aud}$로 코사인 유사도를 이용하여 가중치를 구한다.(lip feature를 메모리에 넣던 것과 비슷하게)
@@ -119,8 +119,15 @@ comments: true
 - key랑 value의 align을 맞추기 위해 key-value address align loss를 아래와 같이 구한다.
   - ![alt image](/public/img/220316/key_value_align_loss.png)
   - KL divergence로 구한다.
-    - k
-- 
+    - 
+
+### 3.2 video synthesis
+
+#### Reconstruction loss
+
+#### Generative adversarial loss
+
+
 ---
 
 ## 4. Experiment
