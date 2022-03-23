@@ -77,7 +77,10 @@ comments: true
 2. scale factor s로 decimation
 3. gaussian noise
 
-- bicubic downsampling 시나리오에서는 잘 되지만, non-bicubic case에서는 domain gap때문에 성능이 떨어진다.### 2.1.2 SRMD
+- bicubic downsampling 시나리오에서는 잘 되지만, non-bicubic case에서는 domain gap때문에 성능이 떨어진다.
+  
+### 2.1.2 SRMD
+
 - multiple degradation kernel에 대처
 - non-bicubic 상황에서 SISR 방법보다 낫다.
 

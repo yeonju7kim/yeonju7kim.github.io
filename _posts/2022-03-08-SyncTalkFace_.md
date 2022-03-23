@@ -2,8 +2,8 @@
 layout: post
 title: SyncTalkFace
 date: 2022-03-08 00:10:00 +0900
-category: ongoing
-# category: lab-paper
+# category: ongoing
+category: lab-paper
 use_math: true
 comments: true
 ---
@@ -119,15 +119,39 @@ comments: true
 - key랑 value의 align을 맞추기 위해 key-value address align loss를 아래와 같이 구한다.
   - ![alt image](/public/img/220316/key_value_align_loss.png)
   - KL divergence로 구한다.
-    - 
+    - 두 확률분포의 차이를 계산하는 데 사용하는 함수
+    - 이상적인 분포에 대해 그 분포를 근사하는 다른 분포를 사용해 샘플링 하면 발생할 수 있는 정보 엔트로피 차이를 계산한다.
+  - key address로 lip feature 구함
+    - ![alt image](/public/img/220316/retrieved_lip_feature.png)
 
 ### 3.2 video synthesis
 
+- identity encoder가 입쪽이 가려진 target face에서 identity feature를 추출한다.
+- recalled lip feature랑 audio feature가 합쳐져서 U-Net-like decoder로 들어간다. 여기서 skip-connection은 input identity와 pose feature을 유지하게 한다.
+- training 할 때는 lip encoder로 얻은 lip feature을 추가적으로 사용한다.
+- ![alt image](/public/img/220323/recall_lip_feature.png)
+  - 위 : train
+  - 아래 : test
+
 #### Reconstruction loss
+
+![alt image](/public/img/220323/reconstruction_loss.png)
+
+> generate 된 frame과 gt frame을 비교
 
 #### Generative adversarial loss
 
+![alt image](/public/img/220323/generative_adversarial_loss.png)
 
+> 사실적으로 보이기 위해 추가함.<br>
+> 위 : discriminator가 구별 못하도록 loss를 최소화<br>
+> 아래 : discriminator를 학습
+
+#### Audio-Visual Sync Loss
+
+![alt image](/public/img/220323/audio_visual_sync_loss.png)
+
+> audio-visual sync module을 학습
 ---
 
 ## 4. Experiment
