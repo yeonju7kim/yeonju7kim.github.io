@@ -106,3 +106,18 @@ comments: true
 
 ## Inverse transform sampling (sampling technique)
 
+> $F_X$ 가 cdf 이고, $U	\sim Unif(0,1)$일 때,
+> 
+> $F_U(u) = u$
+> 
+> $P(F_X^{-1}(u) \leq x) = P(u \leq F_X(x)) = F_U(F_X(x))= F_X(x)$
+> 
+> $F_X^{-1}(U)$ 가 $F_X$의 cdf를 가진다는 의미이다.
+> 
+> 따라서 ramdom sampling을 할 때, $x=F_X^{-1}(u)$ 를 사용한다.
+
+## Change of variables
+
+만약 Y=g(x)라면,
+
+![alt image](/public/img/220323/change_of_variables.png)

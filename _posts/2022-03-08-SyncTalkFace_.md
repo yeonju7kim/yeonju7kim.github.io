@@ -151,10 +151,54 @@ comments: true
 
 ![alt image](/public/img/220323/audio_visual_sync_loss.png)
 
-> audio-visual sync module을 학습
+> - audio-visual sync module을 학습
+> - audio feature $f_a$와 video feature $f_v$의 코사인 유사도로 binary cross-entropy를 계산하여 loss로 사용한다.
+
+#### Visual-Visual Sync Loss
+
+![alt image](/public/img/220323/visual_visual_sync_loss.png)
+
+> - L1 norm
+> - generated frame과 gt frame으로 계산한다.
+
+#### Total Loss
+
+![alt image](/public/img/220323/total_loss.png)
+
 ---
 
 ## 4. Experiment
+
+### Dataset
+
+- LRW : 1000개 넘는 발화, 500개 이상의 단어
+- LRS2 : sentence-level dataset, 140000 발화
+
+### Metrics
+
+- PSNR : visual quality, 최대 신호에서 잡음 비율, 화질에 대한 손실 정보
+- SSIM : visual quality, 인간의 시각적 화질 차이를 평가, Luminance, Contrast, Structural 이 3가지 측면에서 품질을 평가
+- LMD : lip-sync quality, lip landmarks의 거리 
+- LSE-D, LSE-C : lip-sync quality, SyncNet으로 부터 얻은 audio와 video feature 사이의 confidence score과 distance score
+- ATVGnet으로 crop해서 평가했다.
+
+![alt image](/public/img/220324/mse.png)
+
+![alt image](/public/img/220324/psnr.png)
+
+![alt image](/public/img/220324/ssim.png)
+
+### Comparison Methods
+
+- SOTA model
+  - ATVGnet : attention mechanism으로 생성된 landmark를 조건으로 frame을 생성
+  - Wav2Lip : reconstruction-based method
+  - PC-AVS : identity, pose, seepch content에 대한 modularized된 audio-visual representation
+  - 3D Identity Mem : identity memory로 augment
+
+### Implementation Details
+
+1. 
 
 ---
 
