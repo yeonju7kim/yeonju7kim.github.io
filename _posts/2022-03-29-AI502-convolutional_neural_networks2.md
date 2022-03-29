@@ -18,12 +18,12 @@ comments: true
 - Semantic Segmentation은 DeconvNet을 이용한다.
 
 - Code로 image를 복원
-  - ![alt image](/public/img/20220329/visualizeCNNcode.png)
+  - ![alt image](/public/img/220329/visualizeCNNcode.png)
   - Image prior regularization : 실제 이미지처럼 보이게함, less spikes
   - 하나의 code로 여러개의 image를 합성가능
 
 - Global Average Pooling
-  - ![alt image](/public/img/20220329/globalAveragePooling.png)
+  - ![alt image](/public/img/220329/globalAveragePooling.png)
   - fc layer와 달리 feature map을 평균내서 output을 내는 방법
 
 - Orthogonal Regularization
@@ -37,6 +37,6 @@ comments: true
   - auxiliary output
   - residual network
   - DenseNet
-    - ![alt image](/public/img/20220329/densenet.png)
+    - ![alt image](/public/img/220329/densenet.png)
     - fewer parameter, redundant feature map을 다시 학습하지 않는다.
     - 모든 complexity level의 feature를 사용한다.
