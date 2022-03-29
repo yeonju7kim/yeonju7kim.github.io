@@ -1,7 +1,7 @@
 ---
 layout: post
 title: (AI502) 3. CNN
-date: 2022-03-11 00:10:00 +0900
+date: 2022-03-22 00:10:00 +0900
 category: class-summary
 use_math: true
 comments: true
