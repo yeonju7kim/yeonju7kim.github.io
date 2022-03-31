@@ -49,7 +49,7 @@ pdf, pmf는 lower-case로 적는다.
 
 ## Bernoulli distributions
 
-- p(x=1)=$\pi$, p(x=-)=1-$\pi$
+- p(x=1)=$\pi$, p(x=0)=1-$\pi$
 - E[x]=$\pi$, Var[x]=$\pi(1-\pi)$
 - maximum likelihood
   - ![alt image](/public/img/220331/maximum_likelihood.png)
@@ -57,5 +57,5 @@ pdf, pmf는 lower-case로 적는다.
 - Bayesian에선 $\pi$를 random variable로 다룬다.
   - ![alt image](/public/img/220331/bayesian_bernoulli.png)
     - p($\pi$) : prior distribution, data를 보기 전에 가정
-    - p($\pi$\rvert D) : posterior distribution, 실제 data를 봤을 때, $\pi$의 확률
+    - p($\pi\rvert D$) : posterior distribution, 실제 data를 봤을 때, $\pi$의 확률
     - p(D) : marginal likelihood
