@@ -1,6 +1,6 @@
 ---
 layout: post
-title: (AI501) 4.linear algebra - decomposition
+title: (AI501) 6. probabilitybasics
 date: 2022-03-23 00:10:00 +0900
 category: class-summary
 use_math: true
