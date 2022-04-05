@@ -2,7 +2,7 @@
 layout: post
 title: (AI501) 7. Commonly used probability distributions
 date: 2022-03-30 00:10:00 +0900
-category: class-summary
+category: AI501
 use_math: true
 comments: true
 ---

@@ -2,7 +2,7 @@
 layout: post
 title: (AI502) 4. recurrent_neural_networks
 date: 2022-03-31 00:10:00 +0900
-category: class-summary
+category: AI502
 use_math: true
 comments: true
 ---

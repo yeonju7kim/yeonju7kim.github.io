@@ -2,7 +2,7 @@
 layout: post
 title: (AI501) 6. probabilitybasics
 date: 2022-03-23 00:10:00 +0900
-category: class-summary
+category: AI501
 use_math: true
 comments: true
 ---

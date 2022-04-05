@@ -2,7 +2,7 @@
 layout: post
 title: (CS576) Image representation using local features
 date: 2022-03-23 00:10:00 +0900
-category: class-summary
+category: CS576
 use_math: true
 comments: true
 ---

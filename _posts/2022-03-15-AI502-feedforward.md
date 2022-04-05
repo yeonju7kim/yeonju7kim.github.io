@@ -2,7 +2,7 @@
 layout: post
 title: (AI502) 2.feedforward
 date: 2022-03-15 00:10:00 +0900
-category: class-summary
+category: AI502
 use_math: true
 comments: true
 ---

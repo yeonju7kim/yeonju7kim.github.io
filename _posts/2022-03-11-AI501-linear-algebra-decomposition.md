@@ -2,7 +2,7 @@
 layout: post
 title: (AI501) 4.linear algebra - decomposition
 date: 2022-03-11 00:10:00 +0900
-category: class-summary
+category: AI501
 use_math: true
 comments: true
 ---

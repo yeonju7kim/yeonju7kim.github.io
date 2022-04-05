@@ -2,7 +2,7 @@
 layout: post
 title: (AI502) 3. CNN(2)
 date: 2022-03-29 00:10:00 +0900
-category: class-summary
+category: AI502
 use_math: true
 comments: true
 ---

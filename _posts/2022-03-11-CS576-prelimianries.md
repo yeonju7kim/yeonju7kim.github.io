@@ -2,7 +2,7 @@
 layout: post
 title: (CS576) Prelimianries
 date: 2022-03-11 00:10:00 +0900
-category: class-summary
+category: CS576
 use_math: true
 comments: true
 ---
