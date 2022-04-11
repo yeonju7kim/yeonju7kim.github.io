@@ -18,14 +18,14 @@ comments: true
 - MSE
   - ![alt text](/public/img/220311/cost_function2.png)
 - cost function : maximum likelihood
-  - $-logp(y|x)$
+  - $-logp(y\lvert x)$
   - ![alt text](/public/img/220311/cost_function3.png)
 
 ## 여러가지 unit, activation 함수
 
 - gaussian mixture?
 - absolute value rectification
-  - $g(z)=|z|$
+  - $g(z)=\lvert z\lvert$
 - maxout
   - g(z)=max $z_j$
 - softplus

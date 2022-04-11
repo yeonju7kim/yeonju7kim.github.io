@@ -2,7 +2,7 @@
 layout: post
 title: distribution
 date: 2022-04-07 00:10:00 +0900
-category: AI502
+category: math
 use_math: true
 comments: true
 ---
