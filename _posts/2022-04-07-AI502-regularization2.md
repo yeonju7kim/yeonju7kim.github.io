@@ -57,7 +57,7 @@ comments: true
 
 - ![alt image](/public/img/220411/batch_norm.png)
 - internal covariate shift problem 해소
-- generalization 성능 향상
+- generalization 성능 향상, converge 더 빨리
 - learning rate에 덜 sensitive함
 - loss surface를 더 smoother
   - ![alt image](/public/img/220411/smooth_loss_surface.png)
@@ -65,4 +65,8 @@ comments: true
 
 ## Weight Tying (Parameter Sharing)
 
-- 같은 Conv filter 사용 등
+- 같은 Conv filter 사용, RNN에서 같은 weight 사용하는 것
+
+## Data Augmentation
+
+- input이나 hidden unit에 noise 추가
