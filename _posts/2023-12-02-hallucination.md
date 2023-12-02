@@ -1,7 +1,7 @@
 ---
 layout: post
-title: record
-date: 2022-12-02 00:00:00 +0900
+title: Hallucination
+date: 2023-12-02 00:00:00 +0900
 category: Hallucination
 use_math: true
 comments: true

@@ -1,7 +1,7 @@
 ---
 layout: post
-title: record
-date: 2022-12-01 00:00:00 +0900
+title: InstructBLIP
+date: 2023-12-01 00:00:00 +0900
 category: InstructBLIP
 use_math: true
 comments: true
