@@ -1,46 +1,41 @@
 ---
 layout: post
-title: InstructBLIP
-date: 2023-12-01 00:00:00 +0900
+title: Dec 3th
+date: 2023-12-03 00:00:00 +0900
 category: InstructBLIP
 use_math: true
 comments: true
 ---
 
 
-# InstructBLIP
+# 한 일 정리
+- MME coarse benchmark 돌려봄
 
-### Abstract
+## 할일 
 
-General purpose vision language model 어려움
-- rich input distributions and task diversity resulting from the additional visual input
-> visual 정보가 너무 rich하고, task도 너무 다양하구나
-- 26 datasets을 instruction tuning format으로 만들었구나 
-> 이걸 내가 다운받을 수 있으면 좋을텐데
+- POPE 논문 읽기, POPE 사용법 알기
+- 논문 작성
+  - intro
+    - LLM, MLLM
+    - Hallucination, research
+    - instructblip
 
-### 1. Introduction
+## 문제
 
-- vl task는 task가 너무 다양
-- 보통 2가지 접근
-  - multitask learning, 같은 format으로 만듦
-  - pretrained llm과 visual 정보, visual 정보는 caption data로 학습
-    - broad generalization이 부족
-- BLIP-2에서 시작
-- instruction tuning할 때 Q-former만 학습 
-- 이 논문의 contribution
-  - 26 datasets, 11 task categories
-  - instruction aware visual feature extraction
-  - FlanT5와 Vicuna로 학습
-
-### 2. Vision-Language Instruction Tuning
-
-- 각 테스크별로 10~15 instruction을 생성
-  - short, briefly
-- 학습
-  -  
-
-### 3. Experiment Results and Analysis 
-
-### 4. Related Work
-
-### 5. Conclusion
+- text_output을 모름
+- issue보자
+  - https://github.com/salesforce/LAVIS/issues/125
+    - okvqa, vqav2 파인튜닝 방법, format 구현
+  - https://github.com/salesforce/LAVIS/issues/198
+    - VQA-v2 training details, 왜 none으로 구현됨?
+    - > instructBLIP처럼 하네 
+  - https://github.com/salesforce/LAVIS/issues/139
+    - text split of BLIP-T5, random
+  - https://github.com/salesforce/LAVIS/issues/305
+    - text_input: "Question: {question} Answer:"
+    - text_output returns the answer.
+  - https://github.com/salesforce/LAVIS/issues/364
+    - image captioning에서 a photo of 를 prefix로 주는 것
+  - https://github.com/salesforce/LAVIS/issues/328
+    - 배치크기가 크면 학습 안된다
+- InstructBLIP은 도대체 어떻게 학습되고 있는거지
