@@ -39,3 +39,5 @@ comments: true
   - https://github.com/salesforce/LAVIS/issues/328
     - 배치크기가 크면 학습 안된다
 - InstructBLIP은 도대체 어떻게 학습되고 있는거지dfsfds 
+
+asfdasf
