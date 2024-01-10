@@ -38,4 +38,4 @@ comments: true
     - image captioning에서 a photo of 를 prefix로 주는 것
   - https://github.com/salesforce/LAVIS/issues/328
     - 배치크기가 크면 학습 안된다
-- InstructBLIP은 도대체 어떻게 학습되고 있는거지
+- InstructBLIP은 도대체 어떻게 학습되고 있는거지dfsfds 
